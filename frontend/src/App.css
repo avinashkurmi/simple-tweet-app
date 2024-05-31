@@ -1,0 +1,58 @@
+*{
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.from{
+  margin-top: 2.4%;
+  margin-bottom: 2.4%;
+  margin-left: 27rem;
+  margin-right: 27rem;
+  padding: 2%;
+  background-color: rgb(152, 191, 223);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgb(245, 245, 239);
+}
+
+.submit-button{
+  margin-top: 1rem;
+}
+
+.tweet-card-grid-container > .items{
+  background-color: rgb(152, 191, 223);
+  border-radius: 10px;
+  height: 13rem;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 5px 5px rgb(245, 245, 239);
+}
+
+.inner-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.time{
+  text-align: right;
+  font-size: x-small;
+  margin-bottom:0.1rem;
+}
+.content{
+  height: 6rem;
+}
+
+.update-delete-button{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.tweet-card-grid-container{
+  margin: 0.3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-template-rows: auto;
+}
+
+.tweet-card-grid-container > h5{
+  text-align: left;
+}
